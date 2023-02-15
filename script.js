@@ -26,6 +26,27 @@ let weather = {
     } 
 };
 
+//5-day forecast goes here
+// let forecast = {
+//     "apiKey": "f0fe7e97b7b37ef60b40ad5cf72fb1b8",
+//     fetchForecast: function (city) {
+//         fetch("api.openweathermap.org/data/2.5/forecast?q="
+//         + city 
+//         + "&units=imperial&appid=" 
+//         + this.apiKey
+//     )
+//         .then((response) => response.json())
+//         .then((data) => this.displayForecast(data));
+//     },
+//     displayForecast: function(data) {
+        
+//     },
+//     search: function () {
+//         this.fetchWeather(document.querySelector(".search-bar").value);
+//     } 
+// };
+//
+
 document.querySelector(".search button")
 .addEventListener("click", function () {
     weather.search();
@@ -38,3 +59,10 @@ document.querySelector(".search-bar").addEventListener("keyup", function (event)
 });
 
 weather.fetchWeather("Los Angeles");
+
+//5-day weather forecast API
+//api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key}
+
+//This is from the third tutorial
+
+
