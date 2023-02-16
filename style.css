@@ -6,9 +6,7 @@ body {
     font-size: 120%;
 }
 
-.card {
-    background: #eaeaea;
-}
+
 
 .search {
     display: flex;
@@ -54,6 +52,4 @@ h1.temp {
     display: flex;
     align-items: center;
 }
-.container {
-    background-color: aqua;
-}
+
